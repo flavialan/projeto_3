@@ -1,0 +1,134 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.navbar{
+    background-color: #6c0885;
+}
+
+#cabecalho .nav .nav-link.active{
+    background-color: #fff;
+    color: #6c0885;
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover{
+    color: #fff;
+}
+
+
+.navbar-toggler{
+    background-color: #eed5f5;
+}
+
+.section-title{
+    font-family: 'Fahkwang', sans-serif;
+}
+
+body h2{
+    border-bottom: #6c0885 solid 4px;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+#sobre-a-loja img{
+    width: 100%;
+    height: 460px;
+}
+
+#sobre-a-loja .sobre-imagem{
+    height:100%;
+}
+
+#contato .pagamento-imagem{
+    height: 40px;
+    width: 55px;
+}
+
+#feminino, #contato{
+    background-color: #eed5f5;
+}
+
+#feminino img{
+    height: 268.39px;
+}
+
+body p{
+    text-align: justify;
+}
+
+.nav-modelos{
+    justify-content:space-around;
+    margin-bottom: 16px;
+}
+
+.nav-modelos .nav-link{
+    color: #6c0885;
+}
+
+.nav-modelos .nav-link.active{
+    background-color: #6c0885;
+}
+
+.nav-modelos .nav-link.active:hover, .botao-comprar:hover, #contato button:hover{
+    color: #eed5f5;
+    background-color: #6c0885;
+}
+
+.botao-comprar, #contato button{
+    background-color: #6c0885;
+    color: #fff;
+    width: 100%;
+}
+
+.text-colered{
+    color: #6c0885;
+}
+
+.social-links a{
+    text-decoration: none;
+}
+
+.social-links li{
+    list-style: none;
+    display: inline;
+}
+
+.navbar-toggler{
+    background-color: #eed5f5;
+}
+
+#contato .pagamentos li{
+    display: inline;
+    list-style: none;
+}
+
+@media (max-width: 767px){
+    #imagem-carousel .carousel-item img{
+        height: 200px;
+    }
+
+    #contato .pagamentos li{
+        display: inline;
+        list-style: none;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px){
+    #contato .pagamentos li{
+        list-style: none;
+    }
+
+    section .lista{
+        display: grid;
+        grid-template-columns: repeat(2, 49%);
+        column-gap: 2%; 
+        width: 100%;
+    }
+
+    .lista .col-md-4{
+        width: 100%;
+    }
+}
